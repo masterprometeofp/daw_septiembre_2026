@@ -1,0 +1,13 @@
+{
+	"name": "07_10_2026_1",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "Antonio Rosales Martínez (http://lethamburn.vercel.app/)",
+	"license": "ISC",
+	"type": "commonjs"
+}
