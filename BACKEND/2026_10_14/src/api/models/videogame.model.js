@@ -30,6 +30,7 @@ const videogameSchema = new mongoose.Schema(
 		rating: { type: Number, min: 0, max: 10, default: 0 },
 		multiplayer: { type: Boolean, default: false },
 		stock: { type: Number, min: 0, default: 0 },
+        cover: {type: String, trim: true, default: "https://res.cloudinary.com/dwkafwila/image/upload/v1772654099/400x600_lwcdfb.png"},
 		consoles: [{ type: mongoose.Schema.Types.ObjectId, ref: "Console" }],
 		validate: {
 			validator: (consoles) => consoles.length > 0,
