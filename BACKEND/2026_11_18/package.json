@@ -1,0 +1,26 @@
+{
+	"name": "2026_10_07_2",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "node --watch index.js",
+		"seed_consoles": "node ./src/seeds/consoles.seed.js",
+		"seed_videogames": "node ./src/seeds/videogames.seed.js"
+	},
+	"keywords": [],
+	"author": "Antonio Rosales Martínez (http://lethamburn.vercel.app/)",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"cloudinary": "^2.11.0",
+		"dotenv": "^18.0.6",
+		"express": "^5.2.1",
+		"jsonwebtoken": "^9.0.3",
+		"mongoose": "^9.11.0",
+		"multer": "^2.5.0",
+		"multer-storage-cloudinary": "^4.0.0"
+	}
+}
